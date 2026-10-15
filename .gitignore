@@ -1,0 +1,31 @@
+# dependencies and builds
+node_modules/
+dist/
+build/
+coverage/
+
+# secrets (keep .env.example)
+.env*
+!.env.example
+
+# logs and OS files
+*.log
+.DS_Store
+Thumbs.db
+
+# Android Studio / Gradle
+.idea/
+.gradle/
+local.properties
+android/.gradle/
+android/app/build/
+android/build/
+android/app/release/
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# Capacitor copies of the web build
+android/app/src/main/assets/public/
+android/capacitor-cordova-android-plugins/
