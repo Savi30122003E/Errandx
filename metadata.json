@@ -1,0 +1,6 @@
+{
+  "name": "ErrandX - Town Errand & Local Services Platform",
+  "description": "ErrandX is your town-based errand and local-services platform for small towns in Tamil Nadu. One app. Every local errand in your town.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

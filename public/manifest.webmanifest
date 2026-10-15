@@ -1,0 +1,17 @@
+{
+  "name": "ErrandX - Town Errand & Local Services",
+  "short_name": "ErrandX",
+  "description": "One app. Every local errand in your town.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#090a0d",
+  "theme_color": "#facc15",
+  "lang": "ta",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

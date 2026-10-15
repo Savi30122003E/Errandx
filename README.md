@@ -1,2 +1,20 @@
-# Errandx
-ErrandX is a town-based errand and local-services app for small towns in Tamil Nadu. It takes errands in Tamil or English by voice, text or photo, with transparent pricing, partner and merchant views, and an admin console. Built with React, TypeScript, Express and Gemini.
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
+
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/9ce2b25c-4a0e-4e9e-9d80-47235376a53d
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

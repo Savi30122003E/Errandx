@@ -1,0 +1,16 @@
+# One-click deploy blueprint for Render.com (free plan works for demos).
+services:
+  - type: web
+    name: errandx
+    runtime: node
+    plan: free
+    buildCommand: npm install --include=dev && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: 22
+      - key: GEMINI_API_KEY
+        sync: false
